@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "Ambassador", targets: ["Ambassador"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/envoy/Embassy.git", from: "4.0.5")
+        .package(url: "https://github.com/JRR-OSU/Embassy-OSU.git", branch: "fix-crash-memory-rebound")
     ],
     targets: [
         .target(name: "Ambassador", dependencies: ["Embassy"], path: "Ambassador"),
