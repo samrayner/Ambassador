@@ -12,6 +12,6 @@ let package = Package(
         .package(url: "https://github.com/JRR-OSU/Embassy-OSU.git", branch: "fix-crash-memory-rebound")
     ],
     targets: [
-        .target(name: "Ambassador", dependencies: ["Embassy"], path: "Ambassador"),
+        .target(name: "Ambassador", dependencies: ["Embassy-OSU"], path: "Ambassador"),
     ]
 )
